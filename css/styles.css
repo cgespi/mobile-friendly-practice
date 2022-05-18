@@ -1,2 +1,41 @@
-/* Comment */
-/* Second comment */
+body {
+    margin: 0;
+}
+
+body > section {
+    margin: 0 10% 5% 10%;
+    font-size: 16pt;
+}
+
+.wave-container {
+    position: relative;
+}
+
+.text-container {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 100px;
+    font-size: 26pt;
+    color: white;
+}
+
+h1 {
+    letter-spacing: 4px;
+    color: #002BDC;
+}
+
+.right-align {
+    text-align: right;
+}
+
+footer {
+    background-color: #002BDC;
+    height: 150px;
+    text-align: center;
+    color: white;
+}
+
+footer > p {
+    padding-top: 70px;
+}
