@@ -7,11 +7,11 @@ body > section {
     font-size: 16pt;
 }
 
-.wave-container {
+header {
     position: relative;
 }
 
-.text-container {
+header > p {
     position: absolute;
     width: 100%;
     text-align: center;
