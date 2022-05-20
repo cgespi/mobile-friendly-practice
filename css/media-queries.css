@@ -1,0 +1,17 @@
+@media (max-width: 480px) {
+    header {
+        background-color: pink;
+    }
+}
+
+@media (min-width: 481px) {
+    header {
+        background-color: green;
+    }
+}
+
+@media (min-width: 769px) {
+    header {
+        background-color: purple;
+    }
+}
